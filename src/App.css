@@ -1,0 +1,54 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body
+{
+  color: rgb(235, 229, 229);
+  background-color: #EEEEEE;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1
+{
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  letter-spacing: 1px;
+  /* text-align: center; */
+  margin: 5px 0 20px 10px;
+  /* text-decoration: underline; */
+}
+
+.app-container
+{
+  display: flex;
+  width: 45%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.task-list-container
+{
+  width: 100%;
+  background-color: #d0d0d5;
+  padding: 10px;
+  /* margin: 10px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;;
+}
+
+@media only screen and (max-width: 700px)
+{
+  .app-container
+  {
+      width:  85%;
+  }
+}

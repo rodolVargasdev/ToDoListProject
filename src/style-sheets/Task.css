@@ -1,0 +1,50 @@
+.task-container
+{
+  	width: 100%;
+	min-height: 65px;
+	background: #256D85;
+	margin: 5px 0;
+	padding: 0 15px 0 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	/* border: 1px solid white; */
+	cursor: pointer;
+	transition: background 0.5s;
+}
+	.task-container.completed
+	{
+		background: #002B5B;
+		text-decoration: line-through;
+	}
+	.task-container:hover
+	{
+		background: #003571;
+		text-decoration: line-through;
+	}
+
+
+.task-text
+{
+  	width: 100%;
+	height: 100%;
+	padding: 10px 40px 10px 0;
+	font-size: 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	overflow-wrap: anywhere;
+}
+		
+	
+
+.task-delete-button
+{
+    width: 35px;
+	height: 35px;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
